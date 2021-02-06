@@ -32,5 +32,6 @@ while(1):
         continue
     elif (add_more == "No"):
         new_block = Block(latest_hash, transaction_list)
+        latest_hash = new_block.block_hash
         print("New block was created and added to the chain!")
         print("Press ctrl+c to terminate program!")
