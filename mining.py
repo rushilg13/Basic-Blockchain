@@ -19,9 +19,10 @@ def mining(Block_Number, transactions, previous_hash, nonce):
     return
             
 
-prefix_zero = 6
+prefix_zero = 7
 start = time.time()
 print("Time Counter started!")
 print("Mining Started!")
+print("Hash of new Block is:")
 print(mining(9,"Austin sends 10 BTC to Zara, Medusa sends 20 BTC to Zeus", ((prefix_zero*'0')+'2a90a5765df425a4898b542d249852a7a5d599cd6dce4dfdbe0f195b10c65a65'), prefix_zero))
 print("Mining took", time.time()-start, "Seconds")
