@@ -19,7 +19,7 @@ def mining(Block_Number, transactions, previous_hash, nonce):
     return
             
 
-prefix_zero = 7
+prefix_zero = 6
 start = time.time()
 print("Time Counter started!")
 print("Mining Started!")
